@@ -3,13 +3,19 @@ if not isfile("Nightbed.JSON") then writefile("Nightbed.JSON","NIGHTBED UPDATE S
 end
 makefolder("Nightbed")
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Nightbed Private Script";
+	Title = "Nightbed Loading";
+	Text = "Loading Data Script"; -- what the text says (ofc)
+	Duration = 60;
+})
+wait(5)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Nightbed Script";
 	Text = "Prees Quote to Open And Close GUI"; -- what the text says (ofc)
 	Duration = 60;
 })
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Sorry";
-	Text = "it have only 2 private :("; -- what the text says (ofc)
+	Title = "Creator";
+	Text = "WAIT IT THAT PRIVATE???"; -- what the text says (ofc)
 	Duration = 60;
 })
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
