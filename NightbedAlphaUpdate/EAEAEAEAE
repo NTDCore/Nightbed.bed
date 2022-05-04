@@ -1,15 +1,1 @@
- repeat task.wait() until game:IsLoaded() == true
-if not isfile("Nightbed.JSON") then writefile("Nightbed.JSON","NIGHTBED UPDATE SOON")
-end
-makefolder("Nightbed")
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Nightbed Loading";
-	Text = "Loading Data Script"; -- what the text says (ofc)
-	Duration = 60;
-})
-wait(5)
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Nightbed Script";
-	Text = "is down send it to owner"; -- what the text says (ofc)
-	Duration = 60;
-})
+E
