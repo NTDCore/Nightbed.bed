@@ -1,3 +1,4 @@
+makefolder("Nightbed")
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Nightbed Private Script";
 	Text = "Prees Quote to Open And Close GUI"; -- what the text says (ofc)
