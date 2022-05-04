@@ -1,5 +1,5 @@
  repeat task.wait() until game:IsLoaded() == true
-if not isfile("AYO WTF.JSON") then writefile("AYO WTF.JSON","NIGHTBED UPDATE SOON")
+if not isfile("Nightbed.JSON") then writefile("Nightbed.JSON","NIGHTBED UPDATE SOON")
 end
 makefolder("Nightbed")
 game.StarterGui:SetCore("SendNotification", {
